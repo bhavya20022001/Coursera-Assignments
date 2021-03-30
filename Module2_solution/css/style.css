@@ -3,30 +3,41 @@ html {
     box-sizing:border-box;
   }
   body{
-      background-color: #ffff;
+      background-color:#FFFF;
   }
   h1 {
     text-align: center;
     color: black;
 }
+footer{
+    width: 100%;
+    background-color: #9dc88d;
+    background-color:;
+    height: 3%;
+    position:fixed;
+    bottom: 0;
+    margin: 0 -200px;
+    padding:0 200px;
+    border-top: 3px solid black;
+}
 
 section {
     border: 3px solid black;
     position: relative; 
-    background-color: #9dc88d;
+    background-color:#9dc88d;
     margin: 10px;
 }
   p{ 
      padding: 10px; 
-     padding-top: 35px; 
+     padding-top: 60px; 
  } 
  section>h2{
     position:absolute;
     top: -20px;
-    right: 0;
+    right: 0px;
     border-left: 3px solid black; 
     border-bottom: 3px solid black;
-    width: 40%;
+    width: 51%;
     color: beige;
     text-align: center; 
     font-style: Times;
@@ -35,16 +46,15 @@ section {
   }
   section.column1>h2 
   {
-    background-color: #206905;
+    background-color: #3b4d61;
   }
   section.column2>h2 
   { 
-    background-color: #073f5d;
-
+    background-color: green;
   }
   section.column3>h2
   { 
-    background-color: #f83e06;
+    background-color: #8a307f;
 
   }
   
